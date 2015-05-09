@@ -1,0 +1,40 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+/dump.rdb
+/public/system/boards/*
+
+# Ignore other unneeded files.
+database.yml
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.rvmrc
+.ruby-*
+.secret
+# Ignore application configuration
+/config/application.yml
+/config/secrets.yml
+/notes.txt
+
+# capistrano
+/config/deploy.rb
+/lib/capistrano/*
+/config/deploy/*
+/Capfile
+
+# custom
+/config/database.yml
+/config/unicorn.rb
+/config/unicorn_init.sh
+/.rufus-scheduler.lock
